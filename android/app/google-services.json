@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476585695030",
+    "firebase_url": "https://pot-app-20aa2.firebaseio.com",
+    "project_id": "pot-app-20aa2",
+    "storage_bucket": "pot-app-20aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476585695030:android:51fb457b29c39ad1a78597",
+        "android_client_info": {
+          "package_name": "co.viivek.pothole_reporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476585695030-fc0k8n5r2dk6uphubblqrp1ltt308qjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfvbUyExw7-L12E5NJWjb8ev9aVBXn7yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476585695030-fc0k8n5r2dk6uphubblqrp1ltt308qjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
