@@ -1,4 +1,4 @@
-# Pothole Repporter App 
+# Pothole Reporter App 
 
 ## Our Goal
 
