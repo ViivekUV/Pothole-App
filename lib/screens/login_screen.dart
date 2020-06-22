@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pothole_reporter/components/rounded_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:pothole_reporter/screens/chat_screen.dart';
-import 'chat_screen.dart';
+import 'package:pothole_reporter/screens/camera_screen.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -105,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   try {
                     final user = await _auth.signInWithEmailAndPassword(email: email, password: password);
                     if (user != null){
-                      Navigator.pushNamed(context, ChatScreen.id);
+                      Navigator.pushNamed(context, CameraScreen.id);
                     }
                     setState(() {
                       showSpinner = false;

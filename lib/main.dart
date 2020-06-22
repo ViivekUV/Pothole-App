@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pothole_reporter/screens/welcome_screen.dart';
 import 'package:pothole_reporter/screens/login_screen.dart';
 import 'package:pothole_reporter/screens/registration_screen.dart';
-import 'package:pothole_reporter/screens/chat_screen.dart';
+import 'package:pothole_reporter/screens/camera_screen.dart';
 // import 'package:cloud_firestore/cloud_firestore.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:firebase_core/firebase_core.dart';
@@ -24,7 +24,7 @@ class PotholeApp extends StatelessWidget {
         WelcomeScreen.id: (context) => WelcomeScreen(),
         LoginScreen.id: (context) => LoginScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),
-        ChatScreen.id: (context) => ChatScreen(),
+        CameraScreen.id: (context) => CameraScreen(),
       },
     );
   }
