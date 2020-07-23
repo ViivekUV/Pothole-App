@@ -33,16 +33,33 @@ android {
         disable 'InvalidPackage'
     }
 
+    // defaultConfig {
+    //     // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+    //     applicationId "co.viivek.pothole_reporter"
+    //     minSdkVersion 16
+    //     targetSdkVersion 29
+    //     versionCode flutterVersionCode.toInteger()
+    //     versionName flutterVersionName
+    //     multiDexEnabled true
+    // }
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "co.viivek.pothole_reporter"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    aaptOptions {
+        noCompress 'tflite'
+        noCompress 'lite'
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    buildToolsVersion = '28.0.3'
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
